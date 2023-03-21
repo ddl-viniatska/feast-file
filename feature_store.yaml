@@ -4,7 +4,5 @@ provider: local
 offline_store:
     type: file
 online_store:
-    type: redis
-    redis_type: redis
-    connection_string: redis-19716.c285.us-west-2-2.ec2.cloud.redislabs.com:19716,password=${FEAST_REDIS_PASSWORD},ssl=true
+    type: sqlite
 entity_key_serialization_version: 2

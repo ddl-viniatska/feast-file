@@ -14,8 +14,7 @@ from feast import (
 from feast.on_demand_feature_view import on_demand_feature_view
 from feast.types import Float32, Float64, Int64, String
 
-#
-#test
+
 driver_hourly_stats = FileSource(
     path="data/driver_stats_with_string.parquet",
     timestamp_field="event_timestamp",

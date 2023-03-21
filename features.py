@@ -57,7 +57,7 @@ driver_hourly_stats_view = FeatureView(
     online=True,
     source=driver_stats_push_source,
     tags={"production": "True"},
-    owner="test7@gmail.com",
+    owner="test8@gmail.com",
 )
 
 global_features_view = FeatureView(

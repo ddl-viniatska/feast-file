@@ -21,7 +21,7 @@ driver_hourly_stats = FileSource(
     timestamp_field="event_timestamp",
     created_timestamp_column="created",
     description="A table describing the stats of a driver, such as the average daily number of trips.",
-    owner="test9@gmail.com",
+    owner="test10@gmail.com",
 )
 
 global_features = FileSource(
